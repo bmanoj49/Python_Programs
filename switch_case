@@ -1,0 +1,13 @@
+#switch case program
+
+def job_details(ID):
+switcher = {
+"100": "Job description: softare engineer",
+"200": "Job description: Lawyer",
+"300": "Job description: Graphics Designer"
+}
+
+return switcher.get(ID,"nothing")
+
+job_id=input("Enter the job ID")
+print(job_details(job_id))

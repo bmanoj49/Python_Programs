@@ -1,0 +1,9 @@
+#program to calculate pass result of a subject
+
+prac_marks=float(input("Enter the practical marks"))
+ther_marks=float(input("Enter the theory marks"))
+
+if(prac_marks >= 40 and ther_marks >=30) or (prac_marks + ther_marks) >=70:
+ print("\n you are succesfull")
+else:
+ print("\n you are unsuccessfull")
