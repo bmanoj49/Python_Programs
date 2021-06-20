@@ -1,0 +1,7 @@
+#floating_point.py
+
+first_val=567.789
+print("string formatting: {:5.2f}" .format(first_val))
+
+second_val=678.908
+print("string formatting: %5.2f" % second_val)

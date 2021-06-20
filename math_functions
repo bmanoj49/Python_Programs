@@ -1,0 +1,16 @@
+#program for math fucntions
+
+import math
+
+x=10
+n=15
+
+result1= x ** n
+print("%d raised to the power %d is %d" % (x,n,result1))
+
+result2=pow(x,n)
+print("%d raised to the power %d is %d" % (x,n,result2))
+
+result3=math.pow(x,n)
+print("%d raised to the power %d is %d" % (x,n,result3))
+
