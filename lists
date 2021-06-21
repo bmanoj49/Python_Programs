@@ -1,0 +1,13 @@
+#program to demonstrate the working of lists
+
+sports=["Cricket","Hockey","Football","Badminton"]
+
+sports.insert(4,"table tennie")
+
+print("The sports list after adding")
+print(sports)
+
+sports.remove("Badminton")
+
+print("The sports list after delete")
+print(sports)
