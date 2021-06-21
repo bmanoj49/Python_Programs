@@ -1,0 +1,7 @@
+#program to print the months of the year
+
+Months=["January","February","March","April","May","June","July","August","September","October","November","December"]
+print("12 months of the year:\n")
+
+for mons in range(len(Months)):
+ print(Months[mons])

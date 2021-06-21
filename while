@@ -1,0 +1,7 @@
+#program to understand the while mechanism
+
+x=1
+
+while x < 11:
+ print("counter value: %d" % x)
+ x=x+1

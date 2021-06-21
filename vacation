@@ -1,0 +1,16 @@
+#program to import a python program
+
+import holidays as h
+
+months=["January","February","March","April","May","June","July","August","September","October","November","December"]
+flag=0
+
+for m in months:
+ if m == "October" or m=="November" or m=="December":
+  if flag == 0:
+   print("###now", h.holiday1)
+   flag=1
+  elif m == "April":
+   print("###now", h.holiday2)
+  else:
+   print("The current month is",m)
